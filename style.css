@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Delius&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Delius&display=swap);
+
+:root {
+    --fundotexto: rgba(0, 0, 0, 0.596);
+}
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px 0px;
+}
+
+header h1 {
+    font-size: 5em;
+    padding-top: 25px;
+    font-family: 'Bowlby One SC';
+}
+
+header p {
+    padding-bottom: 25px;
+}
+
+header a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main h2 {
+    font-family: 'Delius';
+    font-style: italic;
+    font-size: 3em;
+    max-width: 400px;
+    margin: 20px;
+}
+
+section#joaninha {
+    background: black url(pacote-d012/imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 20px 0px;
+}
+
+section#joaninha h2 {
+    color: white;
+    background-color: var(--fundotexto);
+    margin: 20px;
+}
+
+section#paginas {
+    background: black url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 20px 0px;
+}
+
+section#paginas h2 {
+    color: white;
+    background-color: var(--fundotexto);
+    margin: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6px 0px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+}
