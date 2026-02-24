@@ -11,6 +11,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    min-height: 100%;
+    /* qual a importancia de colocar min-height: 100%?*/
+}
+
 header {
     text-align: center;
     background-color: black;
@@ -43,27 +48,29 @@ a:hover {
 main h2 {
     font-family: 'Delius';
     font-style: italic;
-    font-size: 3em;
-    max-width: 400px;
+    font-size: 2em;
+    max-width: 500px;
     margin: 20px;
 }
 
+section {
+    padding: 10vh 0px;
+    line-height: 5em;
+}
+
 section#joaninha {
-    background: black url(pacote-d012/imagens/background001.jpg) center center no-repeat fixed;
+    background: black url(pacote-d012/imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
-    padding: 20px 0px;
 }
 
 section#joaninha h2 {
     color: white;
     background-color: var(--fundotexto);
-    margin: 20px;
 }
 
 section#paginas {
-    background: black url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+    background: black url(pacote-d012/imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
-    padding: 20px 0px;
 }
 
 section#paginas h2 {
